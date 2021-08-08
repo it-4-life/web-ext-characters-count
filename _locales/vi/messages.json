@@ -1,0 +1,18 @@
+{
+    "extensionName": {
+        "message": "Bao nhiêu ký tự?",
+        "description": "Tên của extension"
+    },
+    "extensionDescription": {
+        "message": "Đếm số ký tự của đoạn text được bôi đen bằng cách click chuột phải hoặc tổ hợp phím (mặc định là Alt + C)",
+        "description": "Mô tả về extension"
+    },
+    "countCharacters": {
+        "message": "Đếm số ký tự",
+        "description": "Label hiển thị ở context menu"
+    },
+    "characters": {
+        "message": "ký tự",
+        "description": "Dịch từ 'characters'"
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "extensionName": {
+        "message": "How many characters",
+        "description": "Name of the extension"
+    },
+    "extensionDescription": {
+        "message": "Count characters from a selected text by right click on the text or press a keyboard shortcuts (default is Alt + C)",
+        "description": "Description of the extension"
+    },
+    "countCharacters": {
+        "message": "Count characters",
+        "description": "Label for context menu"
+    },
+    "characters": {
+        "message": "characters",
+        "description": "Label for 'characters'"
+    }
+}
