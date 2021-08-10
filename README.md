@@ -1,6 +1,6 @@
 # web-ext-count-characters
 
-Extension to count characters of selected text.
+[Extension](https://addons.mozilla.org/en-US/firefox/addon/how-many-characters/) to count characters of selected text.
 
 Select you text and use context menu or keyboard shortcut (default is <kbd>Alt</kbd> + <kbd>C</kbd>) to count characters.
 
