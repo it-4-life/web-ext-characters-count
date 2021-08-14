@@ -4,7 +4,7 @@
     "name": "__MSG_extensionName__",
     "description": "__MSG_extensionDescription__",
     "version": "1.0",
-    "homepage_url": "https://github.com/it-4-life/web-ext-characters-count",
+    "homepage_url": "https://github.com/it-4-life/web-ext-characters-count/tree/chrome-mv2",
     "icons": {
         "48": "icons/icon-48.png",
         "96": "icons/icon-96.png"
@@ -15,17 +15,8 @@
             "background-scripts/characters-count-command.js"
         ]
     },
-    "content_scripts": [
-        {
-            "matches": [
-                "<all_urls>"
-            ],
-            "js": [
-                "content-scripts/get-selected-text.js"
-            ]
-        }
-    ],
     "permissions": [
+        "activeTab",
         "contextMenus",
         "notifications"
     ],

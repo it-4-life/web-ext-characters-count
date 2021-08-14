@@ -1,15 +1,15 @@
-browser.contextMenus.create({
+chrome.contextMenus.create({
     id: 'menu-item-count-characters',
-    title: browser.i18n.getMessage('countCharacters'),
+    title: chrome.i18n.getMessage('countCharacters'),
     contexts: ['selection'],
 });
 
-browser.contextMenus.onClicked.addListener((info, tab) => {
+chrome.contextMenus.onClicked.addListener((info) => {
     if (info.menuItemId == 'menu-item-count-characters') {
-        browser.notifications.create({
+        chrome.notifications.create({
             type: 'basic',
-            iconUrl: browser.runtime.getURL('icons/icon-48.png'),
-            title: info.selectionText.length + ' ' + browser.i18n.getMessage('characters'),
+            iconUrl: chrome.runtime.getURL('icons/icon-48.png'),
+            title: info.selectionText.length + ' ' + chrome.i18n.getMessage('characters'),
             message: info.selectionText,
         });
     }
